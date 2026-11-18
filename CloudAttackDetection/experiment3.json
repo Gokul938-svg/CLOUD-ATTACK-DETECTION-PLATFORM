@@ -1,0 +1,45 @@
+
+{
+  "Records": [
+    {
+      "eventTime": "2026-11-18T05:14:42Z",
+      "userIdentity": {
+        "userName": "Employee1"
+      },
+      "eventName": "ConsoleLogin",
+      "responseElements": {
+        "ConsoleLogin": "Failure"
+      }
+    },
+    {
+      "eventTime": "2026-11-18T05:14:56Z",
+      "userIdentity": {
+        "userName": "Employee1"
+      },
+      "eventName": "ConsoleLogin",
+      "responseElements": {
+        "ConsoleLogin": "Failure"
+      }
+    },
+    {
+      "eventTime": "2026-11-18T05:15:08Z",
+      "userIdentity": {
+        "userName": "Employee1"
+      },
+      "eventName": "ConsoleLogin",
+      "responseElements": {
+        "ConsoleLogin": "Failure"
+      }
+    },
+    {
+      "eventTime": "2026-11-18T05:15:22Z",
+      "userIdentity": {
+        "userName": "Employee1"
+      },
+      "eventName": "ConsoleLogin",
+      "responseElements": {
+        "ConsoleLogin": "Success"
+      }
+    }
+  ]
+}

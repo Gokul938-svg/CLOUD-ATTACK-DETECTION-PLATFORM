@@ -1,0 +1,40 @@
+{
+    "eventVersion": "1.11",
+    "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDAV3GJ4DMMKY42M7RZK",
+        "arn": "arn:aws:iam::402002811672:user/Employee1",
+        "accountId": "402002811672",
+        "accessKeyId": "ASIAV3GJ4DMMG4KDGETZ",
+        "userName": "Employee1",
+        "sessionContext": {
+            "attributes": {
+                "creationDate": "2026-11-18T06:47:24Z",
+                "mfaAuthenticated": "false"
+            }
+        }
+    },
+    "eventTime": "2026-11-18T07:34:21Z",
+    "eventSource": "iam.amazonaws.com",
+    "eventName": "CreateAccessKey",
+    "awsRegion": "us-east-1",
+    "sourceIPAddress": "223.237.177.166",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+    "errorCode": "AccessDenied",
+    "errorMessage": "User: arn:aws:iam::402002811672:user/Employee1 is not authorized to perform: iam:CreateAccessKey on resource: user Employee1 because no identity-based policy allows the iam:CreateAccessKey action. Go to https://us-east-1.console.aws.amazon.com/iam/home?region=us-east-1#/authorization-details/4kncdlin17z1xpf4ca25a3y7w for complete details, or call the GetRequestAuthorizationDetails API with the following authorization id: 4kncdlin17z1xpf4ca25a3y7w",
+    "requestParameters": null,
+    "responseElements": null,
+    "requestID": "9e427b74-241d-4587-9738-a8045f357fce",
+    "eventID": "2ed58895-e0b3-43c0-b9db-29010677bcb5",
+    "readOnly": false,
+    "eventType": "AwsApiCall",
+    "managementEvent": true,
+    "recipientAccountId": "402002811672",
+    "eventCategory": "Management",
+    "tlsDetails": {
+        "tlsVersion": "TLSv1.3",
+        "cipherSuite": "TLS_AES_128_GCM_SHA256",
+        "clientProvidedHostHeader": "iam.amazonaws.com"
+    },
+    "sessionCredentialFromConsole": "true"
+}

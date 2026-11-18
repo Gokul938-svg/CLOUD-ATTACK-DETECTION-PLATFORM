@@ -1,0 +1,83 @@
+
+{
+  "Records": [
+    {
+      "eventVersion": "1.11",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDAV3GJ4DMMKY42M7RZK",
+        "arn": "arn:aws:iam::402002811672:user/Employee1",
+        "accountId": "402002811672",
+        "accessKeyId": "ASIAV3GJ4DMMIBOB7NXM",
+        "userName": "Employee1",
+        "sessionContext": {
+          "attributes": {
+            "creationDate": "2026-11-18T04:00:58Z",
+            "mfaAuthenticated": "false"
+          }
+        }
+      },
+      "eventTime": "2026-11-18T04:34:56Z",
+      "eventSource": "config.amazonaws.com",
+      "eventName": "DescribeConfigurationRecorderStatus",
+      "awsRegion": "ap-southeast-2",
+      "sourceIPAddress": "27.60.164.71",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+      "errorCode": "AccessDenied",
+      "errorMessage": "User: arn:aws:iam::402002811672:user/Employee1 is not authorized to perform: config:DescribeConfigurationRecorderStatus on resource: arn:aws:config:ap-southeast-2:402002811672:configuration-recorder/*/* because no identity-based policy allows the config:DescribeConfigurationRecorderStatus action",
+      "requestParameters": null,
+      "responseElements": null,
+      "requestID": "2fc77d97-57e5-4f47-b4e6-a336d9b623b5",
+      "eventID": "916b02e3-3998-451a-b4ab-483aa2093f2b",
+      "readOnly": true,
+      "eventType": "AwsApiCall",
+      "managementEvent": true,
+      "recipientAccountId": "402002811672",
+      "eventCategory": "Management",
+      "tlsDetails": {
+        "tlsVersion": "TLSv1.3",
+        "cipherSuite": "TLS_AES_128_GCM_SHA256",
+        "clientProvidedHostHeader": "config.ap-southeast-2.amazonaws.com",
+        "keyExchange": "X25519MLKEM768"
+      },
+      "sessionCredentialFromConsole": "true"
+    },
+    {
+      "eventVersion": "1.11",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDAV3GJ4DMMKY42M7RZK",
+        "accountId": "402002811672",
+        "accessKeyId": "",
+        "userName": "Employee1"
+      },
+      "eventTime": "2026-11-18T04:55:56Z",
+      "eventSource": "signin.amazonaws.com",
+      "eventName": "ConsoleLogin",
+      "awsRegion": "eu-north-1",
+      "sourceIPAddress": "27.60.164.71",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+      "errorMessage": "Failed authentication",
+      "requestParameters": null,
+      "responseElements": {
+        "ConsoleLogin": "Failure"
+      },
+      "additionalEventData": {
+        "LoginTo": "https://console.aws.amazon.com/console/home?ca-oauth-flow-id=6baf&hashArgs=%23&isauthcode=true&oauthStart=1794977700360&state=hashArgsFromTB_eu-north-1_5ee654da28fda8c3&utm_source=chatgpt.com",
+        "MobileVersion": "No",
+        "MFAUsed": "No"
+      },
+      "eventID": "30cb9073-65da-43a5-980f-da18d3983766",
+      "readOnly": false,
+      "eventType": "AwsConsoleSignIn",
+      "managementEvent": true,
+      "recipientAccountId": "402002811672",
+      "eventCategory": "Management",
+      "tlsDetails": {
+        "tlsVersion": "TLSv1.3",
+        "cipherSuite": "TLS_AES_128_GCM_SHA256",
+        "clientProvidedHostHeader": "eu-north-1.signin.aws.amazon.com"
+      }
+    }
+  ]
+}
